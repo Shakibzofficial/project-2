@@ -1,0 +1,1107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.overlay {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1145px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo > h2 {
+    color: white;
+    padding-left: 40px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.header-content h1 {
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.header-content p {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 55px;
+}
+
+.header-content a {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: #27ae60;
+    margin-bottom: 190px;
+}
+
+.about-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: -50px;
+    margin-left: -50px;
+}
+
+.about-img {
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 570px;
+    height: 550px;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.about-content {
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 40%;
+}
+
+.about-content h2 {
+    padding-top: 75px;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.about-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #484848;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.about-content h3 {
+    padding-bottom: 55px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+
+}
+
+.about-content .fas,
+.far {
+    padding-right: 40px;
+    color: #27ae60;
+    font-size: 40px;
+}
+
+.features {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.title {
+    font-size: 48px;
+    line-height: 60px;
+    padding-bottom: 60px;
+}
+
+.features-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -40px;
+    margin-left: -40px;
+}
+
+.features-part {
+    width: calc(33.333% - 80px);
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-bottom: 70px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.features-part h2 {
+    font-size: 30px;
+    line-height: 36px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+
+}
+
+.features-part p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #484848;
+}
+
+.course {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.course-main {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.course-part {
+    width: 33.333%;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: #f1f1f1;
+    margin-bottom: 40px;
+}
+
+.course-part-img {
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.course-part h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.course-part p {
+    font-family: 'Montserrat', sans-serif;
+    color: #484848;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(70, 71, 72, 0.2);
+}
+
+.course-part h3 {
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 2px solid rgba(70, 71, 72, 0.2);
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.course-part a {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #27ae60;
+    padding: 15px 85px;
+    color: white;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.course-part-footer {
+    color: #8c8c8c;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+
+.teacher {
+    background-color: #f1f1f1;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.teacher-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.teacher-part {
+    position: relative;
+    width: calc(33.333% - 40px);
+    margin: 20px;
+}
+
+.teacher-part-img {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.teacher-part h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 90px;
+    text-align: left;
+}
+
+.teacher-part p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #27ae60;
+    padding-left: 90px;
+    text-align: left;
+}
+
+.programs {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.programs-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.program-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: relative;
+    width: calc(33.333% - 30px);
+    height: 360px;
+    background: url(../img/program-img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 15px;
+    z-index: 1;
+    align-self: center;
+}
+
+.program-part:nth-child(2) {
+    background: url(../img/program-img-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.program-part:nth-child(3) {
+    background: url(../img/program-img-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.program-part:nth-child(4) {
+    background: url(../img/program-img-4.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.program-part:nth-child(5) {
+    background: url(../img/program-img-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.program-part:nth-child(6) {
+    background: url(../img/program-img-6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay-2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(39, 174, 96, 0.7);
+    position: absolute;
+    z-index: -1;
+    transition: background 0.5s;
+}
+
+.program-part h2 {
+    font-size: 30px;
+    font-weight: 700;
+    transition: color 0.5s;
+}
+
+.program-part p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px 40px;
+    transition: color 0.5s;
+}
+
+.program-part:hover > .overlay-2 {
+    background: rgba(0, 0, 0, 0.7);
+
+}
+
+.program-part:hover h2,
+.program-part:hover p {
+    color: #27ae60;
+}
+
+.clients {
+    background-color: #f1f1f1;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.clients p {
+    padding-top: 40px;
+    padding-right: 250px;
+    padding-left: 250px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #484848;
+    padding-bottom: 60px;
+}
+
+.clients h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.clients h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #484848;
+    padding-bottom: 75px;
+}
+
+.client-main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.client-main > .fas {
+    font-size: 30px;
+    position: absolute;
+    color: #c1c1c1;
+}
+
+.client-main > .fas:nth-child(1) {
+    right: 0px;
+    top: 120px;
+}
+
+.client-main > .fas:nth-child(2) {
+    left: 0px;
+    top: 120px;
+}
+
+.client-main img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+
+.clients-3 {
+    border: 2px solid #27ae60;
+}
+
+.client-part {
+    position: relative;
+}
+
+.overlay-3 {
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+}
+
+.blog {
+    overflow: hidden;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.blog-main {
+    display: flex;
+    margin-left: -150px;
+    margin-right: -150px;
+}
+
+.blog-part {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.blog-part img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-part:first-child {
+    opacity: 0.5;
+}
+
+.blog-part:last-child {
+    opacity: 0.5;
+}
+
+.blog-part h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.blog-part p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #484848;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.blog-btn {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: #27ae60;
+    margin-bottom: 90px;
+}
+
+.newsletter {
+    background-image: url(../img/newsletter.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: bottom;
+    height: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter > h2 {
+    color: white;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    padding-right: 50px;
+
+}
+
+.newsletter .email {
+    border: 0;
+    outline: 0;
+    background: 0;
+    border-bottom: 2px solid #717174;
+    margin-right: 24px;
+    width: 350px;
+    color: white;
+    font-size: 24px;
+}
+
+.newsletter .submit {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: #27ae60;
+    outline: 0;
+    border: 0;
+}
+
+.contact {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.contact-main {
+    display: flex;
+}
+
+.information {
+    margin-right: 20px;
+}
+
+.contact input {
+    width: 100%;
+    margin-bottom: 35px;
+    border: 0;
+    outline: 0;
+    background: 0;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.contact input::placeholder,
+textarea::placeholder {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+textarea {
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border: 1px solid #d1d1d1;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    padding: 10px;
+    margin-bottom: 35px;
+    resize: none;
+}
+
+.contact .contact-btn {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: #27ae60;
+    outline: 0;
+    border: 0;
+    width: 120px;
+
+}
+
+.map img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    padding-bottom: 25px;
+}
+
+.map-main {
+    display: flex;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.map-part {
+    /*    width: 33.333%;*/
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #484848;
+}
+
+.map-part .fas {
+    display: block;
+    color: #27ae60;
+    font-size: 28px;
+    text-align: left;
+    padding-bottom: 15px;
+
+}
+
+.map-part p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+footer {
+    background-color: #1a1a1a;
+    height: 100px;
+}
+
+footer nav {
+    padding-top: 40px;
+}
+
+footer .logo > h2 {
+    padding-left: 20px;
+}
+
+/*MEDIA QUERY START*/
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    header nav ul {
+        display: none;
+    }
+
+    /*
+    footer nav ul {
+        display: none;
+    }
+*/
+
+    .wrapper {
+        max-width: 100%;
+    }
+
+    .about-main,
+    .features-main,
+    .course-main,
+    .teacher-main,
+    .programs-main,
+    .client-main,
+    .blog-main,
+    .newsletter,
+    .contact-main,
+    .map-main {
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .clients p {
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .about-img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .logo {
+        justify-content: center;
+        padding-bottom: 55px;
+    }
+
+    .logo-img {
+        width: 70px;
+        height: 70px;
+        padding-left: 20px;
+    }
+
+    .logo-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .logo > h2 {
+        padding-left: 10px;
+    }
+
+    .header-content h1 {
+        text-align: center;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .header-content p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+        font-family: 'Montserrat', sans-serif;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .about-main {
+        padding: 20px;
+    }
+
+    .about-content {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .about-content h2 {
+        padding-top: 25px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .about-content p {
+        padding-top: 15px;
+        padding-bottom: 30px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .about-content h3 {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 15px;
+    }
+
+    .about-content .fas,
+    .far {
+        font-size: 30px;
+        padding: 20px 20px 20px 0px;
+    }
+
+    .features,
+    .course,
+    teacher,
+    .programs,
+    .clients,
+    .blog,
+    .contact {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .icon {
+        width: 150px;
+        height: 150px;
+        padding: 30px;
+    }
+
+    .features-part {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0px 15px;
+    }
+
+    .features-part h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .features-part p {
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 55px;
+    }
+
+    .last {
+        padding-bottom: 0px !important;
+    }
+
+    .course-part {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .course-part-footer {
+        padding-bottom: 0px;
+    }
+
+    /*
+    .teacher{
+        padding-top: 35px;
+    }
+*/
+    .teacher-main {
+        padding-bottom: 35px;
+    }
+
+    .teacher-part {
+        width: 100%;
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+
+    .teacher-part-img {
+        left: 0px;
+        position: inherit;
+    }
+
+    .teacher-part h2 {
+        text-align: center;
+        padding-left: 0px;
+        font-size: 24px;
+    }
+
+    .teacher-part p {
+        text-align: center;
+        padding-left: 0px;
+        font-size: 18px;
+
+    }
+
+    /*
+    .programs{
+        padding-top: 35px;
+    }
+*/
+    .program-part {
+        width: calc(100% - 40px);
+        margin: 0px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .client-main > .fas {
+        display: none;
+    }
+
+    .overlay-3 {
+        display: none;
+    }
+
+    .blog-part:first-child,
+    .blog-part:last-child {
+        opacity: 1;
+    }
+
+    .blog-part {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .blog-part h2 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .blog-btn {
+        margin-bottom: 30px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter > h2 {
+        padding-right: 0px;
+    }
+
+    .newsletter .email {
+        width: calc(100% - 80px);
+        margin-bottom: 30px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .blog {
+        padding-bottom: 0px;
+    }
+
+    .map {
+        order: 1;
+    }
+
+    .information {
+        order: 2;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .map img {
+        height: 200px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .map-main {
+        padding-left: 30px;
+    }
+
+    .map-part {
+        padding-bottom: 55px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    footer nav {
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+    footer nav ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    footer nav ul li {
+        padding: 10px;
+        border-bottom: 1px solid #252525;
+        width: 100%;
+    }
+
+    footer nav ul li:nth-child(6) {
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+
+/*
+@media screen and (min-width: 768.1px) and (max-width: 991.98px) {
+    .about-main{
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .features-main{
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .course-main{
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .blog-main{
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+}
+*/
+
+
+/*@media (max-width: 1199.98px) {}*/
